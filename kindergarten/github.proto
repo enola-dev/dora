@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package dev.enola.github;
+
+// #People
+message User {
+    string id = 1;
+}
+
+// #Repositories
+message Repo {
+    string org = 1;
+    string name = 2;
+
+    int stars = 3;
+    int forks = 4;
+    int watchs = 5;
+}
+
+// #Commits
+message Commit {
+    bytes id = 1;
+    string author = 2 [(dev.enola.type) = "enola.dev/EntityKind"];
+    string committer = 3;
+    Timestamp author_date = 4;
+    Timestamp commit_date = 5;
+    string message = 6;
+    sring patch = 7;
+}
