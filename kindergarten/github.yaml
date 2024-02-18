@@ -1,0 +1,30 @@
+!proto-message dev.enola.core.Types
+import:
+  - https://std.enola.dev/types.yaml
+types:
+  enola.dev/github:
+    doc: github.md
+    url: https://github.com
+  enola.dev/github/org:
+    doc: github.md#People
+    iri: enola.dev/github/{id}
+    url: https://github.com/{id}
+    proto: dev.enola.github.User
+  enola.dev/github/repo:
+    doc: github.md#Repositories
+    iri: enola.dev/github/{org}/{name}
+    url: https://github.com/{org}/{name}
+    # proto: dev.enola.github.Repo
+    connector: 
+      http:
+        method: get
+        url: https://api.github.com/repos/{org}/{name}
+  enola.dev/github/commit:
+    iri: enola.dev/github/{org}/{repo}/commit/{id}
+    url: https://github.com/{org}/{repo}/commit/{id}
+  enola.dev/github/pr:
+    iri: enola.dev/github/{org}/{name}/pull/{number}
+    url: https://github.com/{org}/{name}/pull/{number}
+  enola.dev/github/issue:
+    iri: enola.dev/github/{org}/{name}/issues/{number}
+    url: https://github.com/{org}/{name}/issues/{number}
