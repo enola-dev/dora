@@ -1,7 +1,7 @@
 ---
 !import common.yaml
 rdf:type: e:types
-
+e:eri: enola.dev/github
 
 ---
 # GitHub
