@@ -9,7 +9,7 @@ message User {
 
 // #Repositories
 message Repo {
-    string org = 1;
+    string org = 1 [(dev.enola.type) = "#User"];
     string name = 2;
 
     int stars = 3;
