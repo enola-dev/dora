@@ -9,10 +9,11 @@ message User {
 
 // #Repositories
 message Repo {
+    // TODO Why not make this simply have all the fields of https://api.github.com/repos/enola-dev/enola? But then... is this Message even required - here?!
     string org = 1 [(dev.enola.type) = "#User"];
     string name = 2;
 
-    int stars = 3;
+    int stargazers_count = 3;
     int forks = 4;
     int watchs = 5;
 }
