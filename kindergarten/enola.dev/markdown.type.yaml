@@ -1,0 +1,7 @@
+# https://github.com/enola-dev/enola/pull/497
+
+# TODO Is Markdown a Type? Or IS-A just a MIME?
+
+!import ../std/type.yaml
+iri: enola.dev/markdown
+rdf:a: enola.dev/mime

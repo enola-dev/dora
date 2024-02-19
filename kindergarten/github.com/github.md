@@ -1,9 +1,3 @@
----
-!import ../common.yaml
-rdf:type: e:types
-e:iri: https://github.com
-
----
 # GitHub
 
 [GitHub](https://github.com) is a _"Code Forge"_ for #hosting [Git repositories](https://git-scm.com).

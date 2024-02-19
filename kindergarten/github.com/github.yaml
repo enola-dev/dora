@@ -1,10 +1,11 @@
+# yaml-language-server: $schema=https://docs.enola.dev/schemas/enola.dev/Types.schema.json
 !proto-message dev.enola.core.Types
 import:
   - https://std.enola.dev/types.yaml
 types:
   github.com:
     doc: github.md
-    url: https://github.com
+    iri: https://github.com
   github.com/org:
     # TODO How to express that github.com/X can be either an Org or a Person?
     # How does the GitHub REST API do this?

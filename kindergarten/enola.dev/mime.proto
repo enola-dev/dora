@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package dev.enola.mime;
+
+// #People
+message MediaType {
+    string type = 1;
+    string subtype = 2;
+    string suffix = 3;
+    map<string, string> parameters = 4;
+}

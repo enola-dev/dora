@@ -1,0 +1,6 @@
+!import common.yaml
+
+!prefix:
+  . : https://enola.dev/type/
+
+rdf:type: e:type
