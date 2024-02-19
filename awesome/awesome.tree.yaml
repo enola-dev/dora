@@ -1,0 +1,17 @@
+- Knowledge Management:
+    - Linked Data Sources
+    - Vocabularies
+    - Platforms
+    - Personal
+- Graph:
+    - Visualization
+    - Frameworks
+- Persistence:
+    - Triplestore (AKA RDF store) DB
+    - Graph DB
+    - Document DB
+    - Vector DB
+- AI:
+    - LLM
+    - Symbolic AI Reasoning (GOFAI?)
+- Build:

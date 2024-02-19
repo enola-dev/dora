@@ -1,0 +1,10 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix e: <https://enola.dev> .
+
+<#LinkedDataSource> a <e:topic>;
+  <rdfs:label> "Linked Data Source";
+  <e:labelPlural> "Linked Data Sources".
+
+<https://datacommons.org> a <#LinkedDataSource>;
+  <rdfs:label> "Data Commons";
+  <spdx:maintainer> <http://google.com>.
