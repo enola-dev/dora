@@ -6,7 +6,7 @@
 
 1. #hack Expose UI's HTML generator as Converter to enola - it's now a static site generator!
 
-1. #hack `ThingToMarkdownConverter`
+1. #hack #enola `ThingToMarkdownConverter`
 
 1. #hack Parse MD to extract headings and links from it <https://github.com/enola-dev/enola/pull/497/files>
 

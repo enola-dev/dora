@@ -1,0 +1,11 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix e: <https://enola.dev> .
+
+<file:README.md#L3> a <e:todo>;
+  <rdfs:label> "Actually implement the ToDo tool... ;-)"^^xsd:string .
+
+<file:../kindergarten/ToDo.md#L7> a <e:todo>;
+  <rdfs:label> "`ThingToMarkdownConverter`"^^e:markdown ;
+  <e:tag> "hack";
+  <e:tag> "enola".
