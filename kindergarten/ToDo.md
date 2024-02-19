@@ -1,6 +1,6 @@
 # ToDo
 
-1. #write Add <https://docs.enola.dev/concepts/other/> as triples
+1. #write Add <https://docs.enola.dev/concepts/other/> as triples in [Awesome/](awesome/)
 
 1. #hack Finish https://github.com/enola-dev/enola/pull/496
 
