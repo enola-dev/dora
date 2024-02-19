@@ -1,0 +1,27 @@
+!proto-message dev.enola.core.Types
+import:
+  - https://std.enola.dev/types.yaml
+types:
+  github.com:
+    doc: github.md
+    url: https://github.com
+  github.com/org:
+    # TODO How to express that github.com/X can be either an Org or a Person?
+    # How does the GitHub REST API do this?
+    doc: github.md#People
+    iri: https://github.com/{id}
+    proto: dev.enola.github.User
+  github.com/repo:
+    doc: github.md#Repositories
+    iri: https://github.com/{org}/{name}
+    # proto: dev.enola.github.Repo
+    connector:
+      http:
+        method: get
+        url: https://api.github.com/repos/{org}/{name}
+  github.com/commit:
+    iri: https://github.com/{org}/{repo}/commit/{id}
+  github.com/pr:
+    iri: https://github.com/{org}/{name}/pull/{number}
+  github.com/issue:
+    iri: https://github.com/{org}/{name}/issues/{number}

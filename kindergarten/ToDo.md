@@ -1,10 +1,14 @@
 
-1. Parse MD to extract headings and links from it
+1. #write Add <https://docs.enola.dev/concepts/other/> as triples
 
-1. Generate Graph
+1. #hack `ThingToMarkdownConverter`
 
-1. Implement imports in YAML, see https://groups.google.com/g/snakeyaml-core/c/kgnHtHuoxwA
+1. #hack Parse MD to extract headings and links from it
 
-1. GitHub connector to fetch stars, forks, watchs from repos
+1. #hack Generate Graph
 
-1. 
+1. #hack Implement imports in YAML, see https://groups.google.com/g/snakeyaml-core/c/kgnHtHuoxwA
+
+1. #hack GitHub connector to fetch stars, forks, watchs from repos
+
+
