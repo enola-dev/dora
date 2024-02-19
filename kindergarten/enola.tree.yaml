@@ -1,0 +1,19 @@
+# OWL?
+
+- Thing:
+    - Class:
+        - enola.dev/mime:
+        - enola.dev/format: # MIMEs + File Extensions (plural!)
+            - enola.dev/markdown:
+        - enola.dev/proto:
+        - enola.dev/github/org:
+            # Not really IS-A, but "has the same identifier as parent (and additional)"
+            - enola.dev/github/repo:
+                - enola.dev/github/commit:
+                - enola.dev/github/issue:
+                - enola.dev/github/pr:
+    - Property:
+    - Instance:
+        - enola.dev/mime:
+            - text/markdown
+            - text/turtle
